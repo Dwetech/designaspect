@@ -1,0 +1,173 @@
+/*=====================*/
+/*Custom Default Css*/
+/*=====================*/
+
+.blue-light-bg{
+    background: url("../img/bokeh-blue.png") #5fb4f1;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.green-light-bg{
+    background: url("../img/bokeh-green.png") #88e1ee;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.noPaddingRight{
+    padding-right: 0;
+}
+.noPaddingLeft{
+    padding-left: 0;
+}
+.noSideMargin{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+.relative{
+    position: relative;
+}
+
+
+/*=====================*/
+/* COntent Css*/
+/*=====================*/
+.popup-content{
+    width: 100%;
+    display: inline-block;
+    padding: 25px 0 0 0;
+}
+
+
+
+/*=====================*/
+/* Left Side Css*/
+/*=====================*/
+.leftSide{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.leftSide img{
+    left: 42px;
+    max-width: 105%;
+    position: absolute;
+    top: 0;
+}
+
+
+/*=====================*/
+/* Right Side Css*/
+/*=====================*/
+.rightSide{
+    width: 100%;
+    display: inline-block;
+}
+
+
+/*==================================*/
+/* Right Side "Notice Banner" Css*/
+/*=================================*/
+.rightSide .notice{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.rightSide .notice h1{
+    background: url("../img/notice-bg.jpg") #4c2362;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 48.6px;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+.rightSide .notice img{
+    position: absolute;
+    top: 0;
+    right: 100%;
+    height: 59px;
+}
+
+
+
+/*==================================*/
+/* Right Side "Title Dialogue" Css*/
+/*=================================*/
+.rightSide .heading h1{
+    color: #572b75;
+    font-size: 35px;
+    line-height: 35px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+/*==================================*/
+/* Right Side "Questions" Css*/
+/*=================================*/
+.rightSide .question{
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0 15px 0;
+}
+.rightSide .question a{
+    width: 100%;
+    display: block;
+    font-size: 23px;
+    color: #572b75;
+    text-decoration: none;
+    font-family: "Open Sans";
+}
+.rightSide .question a:hover{
+    text-decoration: none;
+    font-size: 23px;
+    color: #572b75;
+}
+
+
+/*==================================*/
+/* Right Side "Download Form" Css*/
+/*=================================*/
+.rightSide .download-form{
+    width: 100%;
+    display: inline-block;
+}
+.rightSide .download-form label{
+    font-size: 15px;
+    color: #572b75;
+    font-family: "Open Sans";
+}
+.rightSide .download-form input{
+    border-radius: 0;
+    border: 1px solid #ffffff;
+    box-shadow: none;
+    font-family: "Open Sans";
+}
+.rightSide .download-form .btn-submit{
+    background: url("../img/submit.jpg") #4c2362;
+    border: 1px solid #4a215e;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+p.let_me_into{
+    bottom: -2px;
+    color: #572b75;
+    font-family: "Open Sans";
+    font-size: 17px;
+    left: -80px;
+    position: absolute;
+    text-decoration: underline;
+    width: 100%;
+    z-index: 99;
+    font-style: italic;
+}
