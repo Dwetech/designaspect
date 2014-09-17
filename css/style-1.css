@@ -4,14 +4,17 @@
 @font-face {
     font-family: neutra;
     src: url(neutra.otf);
+    src: url(Neutra.woff);
 }
 @font-face {
     font-family: neutra-demi;
     src: url(neutra-demi.ttf);
+    src: url(neutra-demi.woff);
 }
 @font-face {
     font-family: neutra-italic;
     src: url(neutra-italic.ttf);
+    src: url(neutra-italic.woff);
 }
 
 .blue-light-bg{
