@@ -19,7 +19,13 @@
     margin-right: 0!important;
 }
 .text-shadow{
-    text-shadow: 0 1px 5px #0177ff;
+    /*text-shadow: 0 1px 5px #0177ff;*/
+
+    text-shadow:
+        -2px -7px 30px #1395cf,
+        -2px 2px 5px #1395cf,
+        -2px 2px 10px #1395cf,
+        -1px -1px 3px #1395cf;
 }
 .relative{
     position: relative;
@@ -92,8 +98,8 @@
 /*=================================*/
 .rightSide .heading h1{
     color: #ffffff;
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 40px;
+    line-height: 40px;
     margin: 0;
     padding: 10px 0;
     text-align: center;
