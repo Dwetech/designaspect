@@ -161,13 +161,15 @@
 }
 p.let_me_into{
     bottom: -2px;
-    color: #572b75;
     font-family: "Open Sans";
     font-size: 17px;
     left: -80px;
     position: absolute;
-    text-decoration: underline;
-    width: 100%;
+    width: 55%;
     z-index: 99;
     font-style: italic;
+}
+p.let_me_into a{
+    text-decoration: underline;
+    color: #572b75;
 }

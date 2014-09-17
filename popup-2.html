@@ -1,13 +1,11 @@
-<?php include('core.php'); ?>
-
 <!doctype html>
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <title>Design Aspect</title>
 
-    <link rel="stylesheet" href="<?php echo CSS.'bootstrap.min.css' ?>"/>
-    <link rel="stylesheet" href="<?php echo CSS.'style-2.css' ?>"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style-2.css"/>
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300" rel="stylesheet"
           type="text/css">
@@ -21,7 +19,7 @@
         <div class="popup-content green-light-bg">
             <div class="col-md-5 text-right">
                 <div class="leftSide">
-                    <img src="<?php echo IMG.'journal.png' ?>" alt=""/>
+                    <img src="img/journal.png" alt=""/>
                 </div>
             </div>
             <div class="col-md-7 noPaddingRight">
@@ -29,7 +27,7 @@
                     <div class="col-md-12 noPaddingRight">
                         <div class="notice">
                             <h1>Sign Up for Our FREE Report:</h1>
-                            <img class="" src="<?php echo IMG.'arrow-left.png' ?>" alt=""/>
+                            <img class="" src="img/arrow-left.png" alt=""/>
                         </div>
                     </div>
 
@@ -53,21 +51,26 @@
 
                     <div class="col-md-12 noPaddingLeft">
                         <div class="download-form">
-                            <form class="form-horizontal" role="form">
+                            <form class="form-horizontal" role="form"  accept-charset="UTF-8" action="https://demo.infusionsoft.com/app/form/process/f68016da577980de74b59a6f5296ce62" class="infusion-form" method="POST">
+
+                                <input name="inf_form_xid" type="hidden" value="f68016da577980de74b59a6f5296ce62" />
+                                <input name="inf_form_name" type="hidden" value="PlainTruthAboutBraces Landing Page" />
+                                <input name="infusionsoft_version" type="hidden" value="1.32.0.69" />
+
                                 <div class="form-group">
-                                    <label for="first_name" class="col-sm-3 control-label text-shadow">FIRST NAME:</label>
+                                    <label for="inf_field_FirstName" class="col-sm-3 control-label text-shadow">FIRST NAME:</label>
                                     <div class="col-sm-9">
-                                        <input name="first_name" type="text" class="form-control" id="first_name">
+                                        <input name="inf_field_FirstName" type="text" class="form-control" id="inf_field_FirstName">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email" class="col-sm-3 control-label text-shadow">EMAIL:</label>
+                                    <label for="inf_field_Email" class="col-sm-3 control-label text-shadow">EMAIL:</label>
                                     <div class="col-sm-9">
-                                        <input name="email" type="email" class="form-control" id="email">
+                                        <input name="inf_field_Email" type="email" class="form-control" id="inf_field_Email">
                                     </div>
                                 </div>
                                 <div class="form-group relative">
-                                    <p class="let_me_into">No thanks, just let me into the site</p>
+                                    <p class="let_me_into"><a href="#">No thanks, just let me into the site</a></p>
                                     <div class="col-sm-offset-5 col-sm-5">
                                         <button type="submit" name="submit" class="btn btn-default btn-submit btn-block">DOWNLOAD NOW</button>
                                     </div>
