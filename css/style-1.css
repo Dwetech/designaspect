@@ -3,7 +3,7 @@
 /*=====================*/
 
 .blue-light-bg{
-    background: url("../img/bokeh-blue.png") #5fb4f1;
+    background: url("../img/bokeh-blue.png") #67b8f2;
     /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@
     margin-right: 0!important;
 }
 .text-shadow{
-    text-shadow: 0 1px 5px #012a3e;
+    text-shadow: 0 1px 5px #0177ff;
 }
 .relative{
     position: relative;
@@ -98,6 +98,7 @@
     padding: 10px 0;
     text-align: center;
     font-family: "Open Sans";
+    font-weight: bold;
 }
 
 
