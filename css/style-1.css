@@ -3,7 +3,15 @@
 /*=====================*/
 @font-face {
     font-family: neutra;
-    src: url(NeutraTextTF-Book.otf);
+    src: url(neutra.otf);
+}
+@font-face {
+    font-family: neutra-demi;
+    src: url(neutra-demi.ttf);
+}
+@font-face {
+    font-family: neutra-italic;
+    src: url(neutra-italic.ttf);
 }
 
 .blue-light-bg{
@@ -92,7 +100,7 @@
     position: absolute;
     top: 0;
     right: 100%;
-    height: 59px;
+    height: 58px;
 }
 
 
@@ -108,7 +116,6 @@
     padding: 10px 0;
     text-align: center;
     font-family: neutra;
-    font-weight: bold;
 }
 
 
@@ -129,7 +136,7 @@
     font-size: 23px;
     color: #ffffff;
     text-decoration: none;
-    font-family: neutra;
+    font-family: neutra-demi;
 }
 .rightSide .question a:hover{
     text-decoration: none;
@@ -148,13 +155,13 @@
 .rightSide .download-form label{
     font-size: 15px;
     color: #ffffff;
-    font-family: neutra;
+    font-family: neutra-demi;
 }
 .rightSide .download-form input{
     border-radius: 0;
     border: 1px solid #ffffff;
     box-shadow: none;
-    font-family: neutra;
+    font-family: neutra-demi;
 }
 .rightSide .download-form .btn-submit{
     background: url("../img/submit.jpg") #4c2362;
@@ -166,16 +173,15 @@
 }
 p.let_me_into{
     bottom: -2px;
-    font-family: neutra;
+    font-family: neutra-italic;
     font-size: 17px;
     left: -80px;
     position: absolute;
     width: 55%;
     z-index: 99;
-    font-style: italic;
 }
 p.let_me_into a{
     text-decoration: underline;
     color: #ffffff;
-    font-family: neutra;
+    font-family: neutra-italic;
 }
